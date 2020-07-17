@@ -569,8 +569,8 @@ pre code {
 
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-right: 0.0;
+  padding-left: 0.0;
   margin-right: auto;
   margin-left: auto;
 }
