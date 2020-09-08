@@ -10624,12 +10624,15 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    /* this is the colour of the navbar links when not active*/
+    color: rgba(255, 255, 255, 0.65);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    /* this is the colour of the navbar links when you hover over them*/
+    color: rgba(255, 255, 255, 1);
   }
   #mainNav .nav-link:active {
+    /* this is the colour of the navbar links when you click them*/
     color: #fff;
   }
   #mainNav.navbar-shrink {
@@ -10647,7 +10650,7 @@ body {
     color: #ba0041;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #467355;
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: #ba0041;
